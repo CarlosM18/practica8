@@ -14,11 +14,11 @@ app.set('view engine', 'ejs');
 // middlewares
 app.use(morgan('dev'));
 app.use(myConnection(mysql, {
-  host: 'bsml4n9jtnqd3rilzvhs-mysql.services.clever-cloud.com',
-  user: 'u32gkejk4xxilzbq',
-  password: 'wAqtKMlmoSHKaUTXV8ie',
+  host: 'sql10.freemysqlhosting.net',
+  user: 'sql10432289',
+  password: 'rHpb9ciQVs',
   port: 3306,
-  database: 'bsml4n9jtnqd3rilzvhs'
+  database: 'sql10432289'
 }, 'single'));
 app.use(express.urlencoded({extended: false}));
 // routes
